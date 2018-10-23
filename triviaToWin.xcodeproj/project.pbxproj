@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C8943FC42178D92800700CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8943FC32178D92800700CD3 /* AppDelegate.swift */; };
-		C8943FC62178D92800700CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8943FC52178D92800700CD3 /* ViewController.swift */; };
+		C8943FC62178D92800700CD3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8943FC52178D92800700CD3 /* QuizViewController.swift */; };
 		C8943FC92178D92800700CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8943FC72178D92800700CD3 /* Main.storyboard */; };
 		C8943FCB2178D92A00700CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8943FCA2178D92A00700CD3 /* Assets.xcassets */; };
 		C8943FCE2178D92A00700CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8943FCC2178D92A00700CD3 /* LaunchScreen.storyboard */; };
 		C8943FD6217A240A00700CD3 /* AddQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8943FD5217A240A00700CD3 /* AddQuestionVC.swift */; };
+		C8943FDA217A2D2200700CD3 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8943FD9217A2D2200700CD3 /* TriviaQuestion.swift */; };
+		C8FCF6AE217A5E51006AEE31 /* TitleScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FCF6AD217A5E51006AEE31 /* TitleScreenViewController.swift */; };
+		C8FCF6B0217A642F006AEE31 /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FCF6AF217A642F006AEE31 /* HowToPlayViewController.swift */; };
+		C8FCF6B2217F7807006AEE31 /* EditQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FCF6B1217F7807006AEE31 /* EditQuestionViewController.swift */; };
+		C8FCF6B4217F7A93006AEE31 /* RemoveQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FCF6B3217F7A93006AEE31 /* RemoveQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8943FC02178D92800700CD3 /* triviaToWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triviaToWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8943FC32178D92800700CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8943FC52178D92800700CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8943FC52178D92800700CD3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C8943FC82178D92800700CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8943FCA2178D92A00700CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8943FCD2178D92A00700CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8943FCF2178D92A00700CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8943FD5217A240A00700CD3 /* AddQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionVC.swift; sourceTree = "<group>"; };
+		C8943FD9217A2D2200700CD3 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		C8FCF6AD217A5E51006AEE31 /* TitleScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenViewController.swift; sourceTree = "<group>"; };
+		C8FCF6AF217A642F006AEE31 /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		C8FCF6B1217F7807006AEE31 /* EditQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuestionViewController.swift; sourceTree = "<group>"; };
+		C8FCF6B3217F7A93006AEE31 /* RemoveQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				C8943FC32178D92800700CD3 /* AppDelegate.swift */,
-				C8943FC52178D92800700CD3 /* ViewController.swift */,
+				C8943FC52178D92800700CD3 /* QuizViewController.swift */,
+				C8FCF6B1217F7807006AEE31 /* EditQuestionViewController.swift */,
+				C8FCF6AD217A5E51006AEE31 /* TitleScreenViewController.swift */,
 				C8943FD5217A240A00700CD3 /* AddQuestionVC.swift */,
+				C8FCF6B3217F7A93006AEE31 /* RemoveQuestionViewController.swift */,
+				C8FCF6AF217A642F006AEE31 /* HowToPlayViewController.swift */,
 				C8943FC72178D92800700CD3 /* Main.storyboard */,
+				C8943FD9217A2D2200700CD3 /* TriviaQuestion.swift */,
 				C8943FCA2178D92A00700CD3 /* Assets.xcassets */,
 				C8943FCC2178D92A00700CD3 /* LaunchScreen.storyboard */,
 				C8943FCF2178D92A00700CD3 /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8943FC62178D92800700CD3 /* ViewController.swift in Sources */,
+				C8943FDA217A2D2200700CD3 /* TriviaQuestion.swift in Sources */,
+				C8FCF6AE217A5E51006AEE31 /* TitleScreenViewController.swift in Sources */,
+				C8FCF6B4217F7A93006AEE31 /* RemoveQuestionViewController.swift in Sources */,
+				C8FCF6B0217A642F006AEE31 /* HowToPlayViewController.swift in Sources */,
+				C8943FC62178D92800700CD3 /* QuizViewController.swift in Sources */,
 				C8943FD6217A240A00700CD3 /* AddQuestionVC.swift in Sources */,
 				C8943FC42178D92800700CD3 /* AppDelegate.swift in Sources */,
+				C8FCF6B2217F7807006AEE31 /* EditQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
